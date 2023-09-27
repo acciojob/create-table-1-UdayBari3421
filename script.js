@@ -5,7 +5,7 @@ function insert_Row() {
 
 	for (let i = 0; i < numRows; i++) {
         const row = table.insertRow(i);
-        for (let j = 0; j < numRows; j++) {
+        for (let j = 0; j < 2; j++) {
             const cell = row.insertCell(j);
             cell.textContent = `Row-${i} cell-${j}`;
         }
