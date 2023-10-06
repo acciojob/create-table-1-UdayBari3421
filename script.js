@@ -8,14 +8,18 @@ function insert_Row() {
 		<tr>
 			<td>Row2 cell1</td> 
 			<td>Row2 cell2</td>
-		</tr> 	
+		</tr> 
+		<tr>
+			<td>Row3 cell1</td> 
+			<td>Row3 cell2</td>
+		</tr>	
 	`;
 
 	for (let i = 0; i < numRows; i++) {
         const row = table.insertRow(i);
         for (let j = 0; j < 2; j++) {
             const cell = row.insertCell(j);
-            cell.textContent = `New-${i} Cell-${j}`;
+            cell.textContent = `New Cell${j+1}`;
         }
     }
   
