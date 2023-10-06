@@ -2,8 +2,8 @@ function insert_Row() {
     const numRows = parseInt(prompt("Input number of rows:"));
     const table = document.getElementById("sampleTable");
     table.innerHTML =  `<tr>
-			<td>Row1 cell1</td> 
-			<td>Row1 cell2</td>
+			<td>New Cell1</td> 
+			<td>New Cell2</td>
 		</tr> 
 		<tr>
 			<td>Row2 cell1</td> 
@@ -12,7 +12,11 @@ function insert_Row() {
 		<tr>
 			<td>Row3 cell1</td> 
 			<td>Row3 cell2</td>
-		</tr>	
+		</tr>
+	  <tr>
+			<td>Row4 cell1</td> 
+			<td>Row4 cell2</td>
+		</tr>
 	`;
 
 	for (let i = 0; i < numRows; i++) {
