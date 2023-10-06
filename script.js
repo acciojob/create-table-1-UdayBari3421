@@ -14,6 +14,9 @@ function insert_Row() {
 			<td>Row2 cell1</td> 
 			<td>Row2 cell2</td>
 		</tr>
+		<tr>
+		</tr>
+  
 	`;
 
 	for (let i = 0; i < numRows; i++) {
